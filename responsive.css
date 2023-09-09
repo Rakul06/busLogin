@@ -1,0 +1,119 @@
+html{
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+#dashboard a{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+    background-color: rgb(187, 60, 60);
+    margin-left: 0px;
+    padding:5px;
+    border-radius: 3px;
+    line-height: 150%;
+    display: inline-block;
+    
+    
+    
+}
+
+#logo{
+    max-width: 100%;
+    height: 70px;
+    float: left;
+}
+
+#dashboard > a:hover {
+    background-color:rgb(222, 112, 112) ;
+    
+  }
+
+#dashboard{
+    margin-top: 1%;
+    background-color:white;
+    text-align: right;
+}
+
+
+#container{
+    background-image:url(busbg.jpg);
+    border-radius: 3px;
+    margin-top: 3.2%;
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+   
+
+}
+
+#form{
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgba(217,80,90);
+    float: right;
+    width: 230px;
+    height: 350px;
+}
+
+#form h3{
+    padding-top: 8%;
+    text-decoration:dashed;
+    font-weight: 400;
+
+}
+
+#form label{
+    padding-left: 7px;
+    float: left;
+    padding-top: 9%;
+}
+
+#form input{
+    text-align: left;
+    color: aliceblue;
+    margin-left: 7px;
+    margin-top: 4%;
+    padding-left: 20%;
+    float: left;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#form button{
+    font-size: small;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(187, 60, 60);
+    margin-left: 0px;
+    padding:5px;
+    border-radius: 3px;
+    width: 40%;
+    display: inline-block;
+    
+    
+}
+
+#container a{
+    border: none;
+    margin-top: 3%;
+    font-size: small;
+    text-decoration: none;
+    padding-left: 5px;
+    float: left;
+    color: white;
+}
+
+#container > a:hover {
+    background-color:rgb(222, 112, 112) ;
+    
+  }
